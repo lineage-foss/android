@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Build system -->
+  <remove-project name="LineageOS/android_build" />
+
+  <!-- Frameworks -->
+  <remove-project name="LineageOS/android_frameworks_base" />
+
   <!-- Lineage packages -->
   <remove-project name="LineageOS/android_packages_apps_AudioFX" />
   <remove-project name="LineageOS/android_packages_apps_Camera2" />  
@@ -15,5 +21,9 @@
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
   <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
   <remove-project name="LineageOS/android_packages_apps_Snap" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+
+  <!-- Vendor -->
+  <remove-project name="LineageOS/android_vendor_lineage" />
 
 </manifest>
