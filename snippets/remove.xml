@@ -12,7 +12,6 @@
   <remove-project name="LineageOS/android_packages_providers_CalendarProvider" />  
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <remove-project name="LineageOS/android_packages_apps_HTMLViewer" />
-  <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
 
 </manifest>
